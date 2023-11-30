@@ -1,0 +1,19 @@
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 7e1678b..ee14b42 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -1 +1,11 @@[m
+[31m-# 3dbE[m
+\ No newline at end of file[m
+[32m+[m[32m# 3dbE[m
+[32m+[m
+[32m+[m[32mThis project aims to mesmerize its viewers with trancelike visuals created in D3. A massive thanks to Curran Kelleher et. al. for showing me the way.[m
+[32m+[m
+[32m+[m[32m It draws from previous work including but not limited to the following experiments in D3:[m
+[32m+[m
+[32m+[m[32m *[SynWurm](https://vizhub.com/adventuresEnglish/0f70e8b5e04d4d1b8bbac49d22143321?edit=files&file=index.html)[m
+[32m+[m
+[32m+[m[32m *[Sol LeWitt-Inspired Shapes](https://vizhub.com/adventuresEnglish/e6b6683c2a72438ea54357882304830d?edit=files&file=index.html)[m
+[32m+[m
+[32m+[m[32m *[Skitzo ZenWurm 2.0](https://vizhub.com/adventuresEnglish/11fbc16ec15e4d9f8cffab96f9211c7c?edit=files&file=index.html)[m
+\ No newline at end of file[m
