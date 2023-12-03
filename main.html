@@ -1,37 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <script src="arrows.js" defer></script>
 
     <title>Puerto Dominico</title>
   </head>
   <body>
 
-    <div class="gallery">
-      <h1 class="title">Puerto Dominico</h1>
-      <h2>A repository of what I am working on</h2>
+    <div class="background"></div>
 
+    <h1 class="title">Puerto Dominico</h1>
+    <br /><br />
+    <h2>a repository of what I am working on...</h2>
+    <br />
+    <div class="selection">
       <button class="button">
-        <i class="fas fa-sync-alt counter__reset-icon"></i>
+        <a class="nostyle" href="./solLewitt/index.html">
+          <i id="arrow" class="fa-solid fa-arrow-right-long"></i>
+          Sol LeWitt-Inspired Shapes
+        </a>
       </button>
-
-      <div class="buttons">
-        <button class="button">
-          <i class="fas fa-minus counter__icon counter__icon--minus"></i>
-        </button>
-        <button class="button">
-          <i class="fas fa-plus counter__icon counter__icon--plus"></i>
-        </button>
-      </div>
+      <button class="button">
+        <a class="nostyle" href="./s(L)in(e)Wurm/index.html">
+          <i id="arrow" class="fa-solid fa-arrow-right-long"></i>
+          s(L)in(e) Wurm
+        </a>
+      </button>
+      <button class="button">
+        <a class="nostyle" href="./wuzTsoid/index.html">
+          <i id="arrow" class="fa-solid fa-arrow-right-long"></i>
+          wuzTsoid
+        </a>
+      </button>
+      <button class="button">
+        <a class="nostyle" href="./zenWurm/index.html">
+          <i id="arrow" class="fa-solid fa-arrow-right-long"></i>
+          Zen Wurm 2.0
+        </a>
+      </button>
     </div>
-    
   </body>
 </html>
