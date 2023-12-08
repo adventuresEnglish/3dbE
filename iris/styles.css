@@ -1,0 +1,123 @@
+body {
+  text-align: center;
+  font-size: 13em;
+  margin: 0;
+  overflow: hidden;
+}
+
+
+.source {
+  position: absolute;
+  font-size: 10px;
+  left: 78px;
+  font-weight: 25;
+}
+
+.title {
+  font-size: 30px;
+	font-weight, 900;
+  text-decoration: underline;
+}
+
+.border-box {
+  position: absolute;
+  bottom: 3px;
+  left: 78px;
+  width: 630px;
+  height: 24px;
+  background-color: #bab0ab;
+  border-radius: 10px;
+} 
+
+.setosa {
+  height: 17px;
+  width: 17px;
+  border-radius: 35%;
+  background-color: #4e79a7;
+}
+
+.setosa_bottomleft {
+  position: absolute;
+  bottom: 9px;
+  left: 85px;
+}
+
+.setosa_text {
+	position: absolute;
+  bottom: 5px;
+  left: 85px;
+  font-size: 18px;
+  padding-left: 25px;
+}
+
+.versicolor {
+ 	height: 17px;
+  width: 17px;
+  border-radius: 35%;
+  background-color: #f28e2c;
+  z-index: -1;
+}
+
+.versicolor_bottomleft {
+  position: absolute;
+  bottom: 9px;
+  left: 305px;
+  font-size: 18px;
+  z-index: -1;
+}
+
+.versicolor_text {
+  position: absolute;
+  bottom: 5px;
+  left: 305px;
+  font-size: 18px;
+  padding-left: 25px;
+}
+
+.virginica {
+ 	height: 17px;
+  width: 17px;
+  border-radius: 35%;
+  background-color: #e15759;
+}
+
+.virginica_bottomleft {
+  position: absolute;
+  bottom: 9px;
+  left: 525px;
+  font-size: 18px;
+}
+
+.virginica_text {
+  position: absolute;
+  bottom: 5px;
+  left: 525px;
+  font-size: 18px;
+  padding-left: 25px;
+}
+
+.x-label_box {
+  position: absolute;
+  bottom: 3px;
+  right:40px;
+  width: 180px;
+  height: 24px;
+  background-color: #76b7b2;
+}
+
+.y-label_box {
+  position: absolute;
+  left: 3px;
+  top:40px;
+  width: 24px;
+  height: 180px;
+  background-color: #76b7b2;
+}
+
+.label_box_border {
+  border: 2px solid #59a14f;
+  opacity: 0.4;
+  z-index: -2;
+  box-shadow: 1px 0px 1px  rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
